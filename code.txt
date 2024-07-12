@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Places In India</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        .header,
+        .footer {
+            width: 100%;
+            background-color:darkslategray;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .box {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .style {
+            width: 300px;
+            margin: 20px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            transition: transform 0.3s;
+        }
+
+        .style:hover {
+            transform: scale(1.05);
+        }
+
+        .style img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .style p {
+            padding: 15px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .style a {
+            display: block;
+            padding: 10px;
+            background-color:darkslategray;
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+
+        .style a:hover {
+            background-color: #555;
+        }
+
+        .footer {
+            position:absolutes;
+            bottom: 0;
+            width: 150%;
+            background-color:darkslategrey;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Historical Places In India</h1>
+        <p>Explore some of the most iconic and fascinating historical places in India</p>
+    </div>
+
+    <div class="box">
+        <div class="style">
+        <img src="C:\Users\chala\Downloads\Taj mahal.jpg" alt="Taj Mahal">
+        <p>The Taj Mahal is a white marble mausoleum built by the Mughal emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal. 
+        It is considered one of the seven wonders of the world and a symbol of love and beauty.</p>
+        <a href="https://en.wikipedia.org/wiki/Taj_Mahal">Learn more about Taj Mahal</a>
+    </div>
+    <div class="box">
+        <div class="style">
+        <img src="C:\Users\chala\Downloads\red fort.jpg" alt="Red fort">
+        <p>The Red Fort is a red sandstone fort complex built by Shah Jahan as the residence of the Mughal emperors and the seat of their power.
+        It is also the site of the annual Independence Day celebration of India.</p>
+        <a href="https://en.wikipedia.org/wiki/Red_Fort">Learn more about Red Fort</a>
+    </div>
+    <div class="box">
+        <div class="style">
+        <img src="C:\Users\chala\Downloads\qutab minar.jpg" alt="Qutub Minar">
+        <p>The Qutub Minar is a 73-meter tall minaret built by the Delhi Sultanate rulers as a victory tower and a symbol of Islamic faith.
+        It is the tallest brick minaret in the world and a UNESCO World Heritage Site.</p>
+        <a href="https://en.wikipedia.org/wiki/Qutub_Minar">Learn more about Qutub Minar</a>
+    </div>
+    <div class="box">
+        <div class="style">
+        <img src="C:\Users\chala\Downloads\char minar.jpg" alt="Char Minar">
+        <p>The Charminar is a monument located in Hyderabad, Telangana, India.
+        The Charminar's long history includes the existence of a mosque on its top floor for more than 425 years</p>
+        <a href="https://en.wikipedia.org/wiki/Charminar">Learn more about Char Minar</a>
+    </div>
+    <div class="box">
+        <div class="style">
+        <img src="C:\Users\chala\Downloads\hampi.jpg" alt="Hampi">
+        <p>Hampi referred to as the Group of Monuments at Hampi, is a UNESCO World Heritage Site located in Hampi, Karnataka.
+        It is mentioned in the Ramayana and the Puranas of Hinduism as Pampa Devi Tirtha Kshetra.</p>
+        <a href="https://en.wikipedia.org/wiki/Hampi">Learn more about Hampi</a>
+    </div>
+    <div class="box">
+        <div class="style">
+        <img src="C:\Users\chala\Downloads\agra fort.jpg" alt="Agra Fort">
+        <p>The Agra Fort is a historical fort in the city of Agra, and also known as Agra's Red Fort.
+        Mughal emperor Humayun was crowned at this fort.</p>
+        <a href="https://en.wikipedia.org/wiki/Agra_Fort">Learn more about Agra Fort</a>
+    </div>
+
+    <div class="footer">
+        <p>
+            Designed and Developed by G Venkata Chalapathi.
+        </p>
+    </div>
+</body>
+
+</html>
